@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/maximecb/gym-minigrid.svg?branch=master)](https://travis-ci.org/maximecb/gym-minigrid)
 
+
+
+## jdmartin86's MiniGrid changes
+- Truly sparse rewards: 0 unless terminal state reached, then 1.
+- No done action to terminate episode
+
 There are other gridworld Gym environments out there, but this one is
 designed to be particularly simple, lightweight and fast. The code has very few
 dependencies, making it less likely to break or fail to install. It loads no
